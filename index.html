@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My Machine Learning Model</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="bubble">
+      <h1>My Machine Learning Model - Image Edition 📷</h1>
+      <p>
+        the goal of this machine is to idenitify the different type of lego
+        pieces that are used to be built a set. instructions: 
+        <p>1. bring a leg
+        piece like a block, a figure or anything that is a lego piece to do
+        activity </p> <p>2. show it to the Camera </p> <p> 3. wait for the result to see if its
+        right!! </p> <p> 4. if it right, try using more to see if it can guess it right!!
+        if it not right keep trying!!</p>
+      </p>
+
+      <button type="button" onclick="init()" id="start">lets go!!</button>
+
+      <div id="webcam-container"></div>
+      <!-- Camera for testing data -->
+      <div id="label-container"></div>
+      <!-- Show the predicted label -->
+    </div>
+
+    <div class="bubble">
+      <h1>About the Creator</h1>
+      <p>hi my name is aahana agarwal. i enjoy legos and legos shows!! I enjoy ninjago, lego monkie kid, and dreamzz!! there's more but they are highkey mid. i have been workign really hard on this project and i wanted to make this webiste for my family and friends who are lego nerds just like me!!</p>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
